@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Terminolgy</title>
+ </head>
+ <body>
+ <h1>
+Terminology
+ </h1>
+ <p>
+ List of words frequently used by the jailbreaking community, sorted alphabetically.
+ </p>
+ <h3>Appsyncing</h3>
+ <p>
+ Installing an .ipa file using the tweak Appsync Unified. This keeps the app indefinitely, without it being revoked, but requires your device to be jailbroken. This term was coined by me, due to people confusing this with sideloading, where the apps do get revoked.
+ </p>
+ <h3>
+ Baseband
+ </h3>
+ <p>
+ A processor in cellular devices that controls cellular functionality, and runs on a separate firmware from the main device. The baseband firmware is updated when restoring, though some custom methods can prevent updating the baseband. Legacy iOS Kit can back up, and restore a baseband version, and ultrasn0w can exploit certain baseband versions to unlock the carrier if the device is locked to a carrier.
+ </p>
+ <h3>
+ Blobs (SHSH Blobs)
+ </h3>
+ <p>
+ A digital signature used to verify and boot iOS on a device. They can be saved in order to downgrade to unsigned iOS versions, but they are unique to every device. Saving blobs requires the device to be pwned, and saves the current version running on your device (tethered/dualbooted versions don't count). You can also save blobs for currently signed iOS versions using your device's ECID number.
+ </p>
+ <h3>
+ Certificates
+ </h3>
+ <h3>
+ Cydia Substrate
+ </h3>
+ <p>
+ A framework that allows tweaks to run, especially tweaks that modify graphical interfaces. You can hold the volume up button while your device is booting in order to disable it. This is helpful if a tweak is causing your device to bootloop, or if there are graphical glitches. If you try to remove Cydia Substrate, it will uninstall every tweak that uses it, which is helpful if you can't find a tweak that is causing issues.
+ </p>
+ <h3>
+ DFU mode
+ </h3>
+ <p>
+ Stands for "Device Firmware Upgrade" mode. It can be accessed by holding down a <a href="https://theapplewiki.com/wiki/DFU_Mode#iPhone,_iPad,_iPod_touch">button combination</a>, or using a modified IPSW. It's essentially a mode that allows you to flash firmware to your device.
+ </p>
+   <h3>
+     Downgrade Party
+   </h3>
+   <p>
+     In January 2018, a bug in Apple's servers caused many iOS versions to become signed again, letting people downgrade and save blobs for their devices. It only lasted a day, and is unlikely to happen again.
+   </p>
+ <h3>
+ IPSW
+ </h3>
+ <p>
+ Stands for "iPhone/iPad/iPod Software", and is a file used to flash iOS to a device. IPSWs can be downloaded from Apple's servers using frontends like https://ipsw.me. They can also be patched to make a device jailbroken upon restore, or put a device in DFU mode.
+ </p>
+ <h3>
+      <h3>
+     kDFU
+   </h3>
+   <p>
+     A mode similar to PwnDFU, exclusive to 32-bit armv7 devices. The device needs to be turned on in order to enter kDFU mode, which is useful for devices with broken buttons. kDFU mode requires the device to be currently jailbroken. You can put a device in kDFU by connecting it to Legacy iOS Kit while turned on, and attempting a downgrade, or using kDFUapp. 
+   </p>
+   <h3>
+ Pwning, PwnDFU
+ </h3>
+ <p>
+ A form of exploiting the device's processor in order to put it in a vunerable state, where custom IPSWs can be flashed, or the device can be jailbroken. Success rates for pwning depends on what OS or device you're using to pwn, and the processor of the device you're trying to pwn.
+ </p>
+   <h3>
+     Safe Mode
+   </h3>
+   <p>
+     A mode that your device enters whenever a tweak crashes the springboard, where you can uninstall the tweak that is causing the crash. Safe mode has a bug on iOS 3 and 4 where the touchscreen becomes unresponsive, and has to be fixed by downgrading Safe Mode and Cydia Substrate.
+   </p>
+   <h3>
+     SpringBoard
+   </h3>
+   <p>
+     The graphical interface of iOS. Some tweaks allow you to reload the springboard, often referred to as "respringing" which is a form of soft restart.
+   </p>
+
+ 
