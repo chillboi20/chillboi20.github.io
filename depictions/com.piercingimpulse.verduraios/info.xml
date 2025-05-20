@@ -1,0 +1,24 @@
+<package>
+	<id>com.piercingimpulse.verduraios</id>
+	<name>VerduraiOS</name>
+	<version>0.0.2</version>
+	<compatibility>
+		<firmware>
+            <miniOS>6.0</miniOS>
+			<maxiOS>10.3.4</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>This is a rehost of VerduraiOS, credits to piercingimpulse and SamDaaEpic</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
